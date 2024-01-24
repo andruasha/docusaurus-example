@@ -3,12 +3,12 @@ import re
 import boto3
 
 
-SOURCE-ROOT = os.environ.get("SOURCE-ROOT")
-ACCESS_KEY_ID = os.environ.get("ACCESS_KEY_ID")
-SECRET_ACCESS_KEY = os.environ.get("SECRET_ACCESS_KEY")
-STORAGE_REGION = os.environ.get("STORAGE_REGION")
-STORAGE_ENDPOINT = os.environ.get("STORAGE_ENDPOINT")
-STORAGE_BUCKET = os.environ.get("STORAGE_BUCKET")
+SOURCE_ROOT = os.environ.get("SOURCE-ROOT")
+ACCESS_KEY_ID = os.environ.get("ACCESS-KEY-ID")
+SECRET_ACCESS_KEY = os.environ.get("SECRET-ACCESS-KEY")
+STORAGE_REGION = os.environ.get("STORAGE-REGION")
+STORAGE_ENDPOINT = os.environ.get("STORAGE-ENDPOINT")
+STORAGE_BUCKET = os.environ.get("STORAGE-BUCKET")
 
 s3 = boto3.client(
     "s3",
@@ -28,4 +28,4 @@ def upload_files_to_s3(path, bucket_name):
 
 
 if __name__ == "__main__":
-    upload_files_to_s3(SOURCE-ROOT, STORAGE_BUCKET)
+    upload_files_to_s3(SOURCE_ROOT, STORAGE_BUCKET)
