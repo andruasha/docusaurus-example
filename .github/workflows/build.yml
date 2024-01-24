@@ -28,12 +28,16 @@ jobs:
       - name: Build docs
         run: npm run build
 
-      - name: Display files
+      - name: Set up python
+        uses: actions/setup-python@v4
+  
+      - name: Install dependencies
         run: |
-          ls -al
+          pip install boto3
+        shell: bash
 
       - name: run python s3 script
-        run: .github/workflows/scripts/main.py
+        run: python .github/workflows/scripts/main.py
         env:
           SOURCE-ROOT: "./build"
           STORAGE-ENDPOINT: ${{ vars.STORAGE_ENDPOINT }}
