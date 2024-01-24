@@ -33,7 +33,7 @@ jobs:
           ls -al
 
       - name: run python s3 script
-        run: main.py
+        run: .github/workflows/scripts/main.py
         env:
           SOURCE-ROOT: "./build"
           STORAGE-ENDPOINT: ${{ vars.STORAGE_ENDPOINT }}
