@@ -4,16 +4,16 @@ import boto3
 
 
 SOURCE_ROOT = os.environ.get("SOURCE-ROOT")
-ACCESS_KEY_ID = os.environ.get("ACCESS-KEY-ID")
-SECRET_ACCESS_KEY = os.environ.get("SECRET-ACCESS-KEY")
+STORAGE_ACCESS_KEY_ID = os.environ.get("STORAGE-ACCESS-KEY-ID")
+STORAGE_SECRET_ACCESS_KEY = os.environ.get("STORAGE-SECRET-ACCESS-KEY")
 STORAGE_REGION = os.environ.get("STORAGE-REGION")
 STORAGE_ENDPOINT = os.environ.get("STORAGE-ENDPOINT")
 STORAGE_BUCKET = os.environ.get("STORAGE-BUCKET")
 
 s3 = boto3.client(
     "s3",
-    aws_access_key_id=ACCESS_KEY_ID,
-    aws_secret_access_key=SECRET_ACCESS_KEY,
+    aws_access_key_id=STORAGE_ACCESS_KEY_ID,
+    aws_secret_access_key=STORAGE_SECRET_ACCESS_KEY,
     region_name=STORAGE_REGION,
     endpoint_url=STORAGE_ENDPOINT,
 )
