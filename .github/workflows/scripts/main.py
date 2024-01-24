@@ -22,7 +22,7 @@ def upload_files_to_s3(path, bucket_name):
     for root, dirs, files in os.walk(path):
         for file in files:
             local_file_path = os.path.join(root, file)
-            s3_key = os.path.relpath(local_file_path, local_path)
+            s3_key = os.path.relpath(local_file_path, path)
             s3.upload_file(local_file_path, bucket_name, s3_key)
 
 
