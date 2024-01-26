@@ -22,11 +22,11 @@ def upload_files_to_s3(path, bucket_name):
             local_file_path = os.path.join(root, file)
             s3_key = os.path.relpath(local_file_path, path)
             
-            if s3_key == 'assets/css/styles.1c022e41.css':
-                extra_args = {'ContentType': 'text/css'}
-            else:
-                extra_args = {}
-            
+            extra_args = {}
+
+            if file.endswith('.css'):
+                extra_args['ContentType'] = 'text/css'
+
             s3.upload_file(local_file_path, bucket_name, s3_key, ExtraArgs=extra_args)
 
 if __name__ == "__main__":
