@@ -9,8 +9,8 @@ const config = {
   baseUrl: '/',
 
   i18n: {
-    defaultLocale: 'ru',
-    locales: ['ru', 'en'],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
@@ -71,7 +71,6 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
-      onBrokenLinks: 'ignore',
     }),
 };
 

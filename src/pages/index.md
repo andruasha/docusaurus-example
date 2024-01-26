@@ -16,9 +16,9 @@ title: Welcome to mekstack docs!
 автоматически предоставляется 950 Gbps DDoS защита, 99.(9) SLA и персональный
 аудитор из отдела Информационной Безопасности НИУ ВШЭ.
 
-**Начало работы с облачной платформой мекстак:** [quick-start](quick-start.md)
+**Начало работы с облачной платформой мекстак:** [quick-start] (quick-start.md)
 
-**Начало работы с сайтом для запуска виртуалок:** [heat-quick-start](heat-quick-start.md)
+**Начало работы с сайтом для запуска виртуалок:** [heat-quick-start] (heat-quick-start.md)
 
 
 ## Фичи
@@ -33,21 +33,21 @@ title: Welcome to mekstack docs!
 
 - **SNEEDaaS**  
   SNI-Enabled Endpoint Delivery as a Service.
-  [Сервис](services.md#sneedaas) для публикации ваших HTTP(S) сервисов в интернете.
+  [Сервис] (services.md#sneedaas) для публикации ваших HTTP(S) сервисов в интернете.
 
 - **VPNaaS**  
-  У нас свой [впн](services.md#vpnaas) для доступа к виртуалкам. Я написал его на расте.
+  У нас свой [впн] (services.md#vpnaas) для доступа к виртуалкам. Я написал его на расте.
 
 - **Мониторинг**  
-  Можно смотреть за здоровьем облака и всех проектов. [status.mekstack.ru](https://status.mekstack.ru/d/YZCsB1Qmz/mekstack-home)
+  Можно смотреть за здоровьем облака и всех проектов. [status.mekstack.ru] (https://status.mekstack.ru/d/YZCsB1Qmz/mekstack-home)
 
 - **Много других \*ass**  
-  У нас очень много [*aaS](https://en.wikipedia.org/wiki/As_a_service),
+  У нас очень много [*aaS] (https://en.wikipedia.org/wiki/As_a_service),
   но если среди них нужной нет, приходи к нам в команду и добавь, не мужик что ли.
 
 * **Кастомные образы**  
   Мы ежедневно обновляем и тестируем имаджи Ubuntu и Debian, но можно
-  загружать и свои. [images](images.md)
+  загружать и свои. [images] (images.md)
 
 
 ## Ещё не фичи
