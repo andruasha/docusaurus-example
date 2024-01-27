@@ -5,7 +5,7 @@ const config = {
   tagline: 'Mekstack Docs',
   favicon: 'img/favicon.ico',
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://docs.mekstack.ru/',
   baseUrl: '/',
 
   i18n: {
@@ -21,7 +21,7 @@ const config = {
           routeBasePath: '/',
           sidebarPath: './sidebars.js',
           editUrl:
-            'https://github.com/andruasha/docusaurus-example/tree/main',
+            'https://github.com/mekstack/docs/',
         },
         blog: false,
         theme: {
@@ -33,31 +33,29 @@ const config = {
 
   themeConfig:
     ({
-      image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Mekstack Docs',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Mekstack Docs',
           src: 'https://storage.yandexcloud.net/mekstack-static/mekstack-logo.svg',
         },
         items: [
           {
-            href: 'https://github.com/andruasha/docusaurus-example',
+            href: 'https://mekstack.ru',
             label: 'Dashboard',
             position: 'left',
           },
           {
-            href: 'https://github.com/andruasha/docusaurus-example',
+            href: 'https://vpnaas.mekstack.ru',
             label: 'VPNaaS',
             position: 'left',
           },
           {
-            href: 'https://github.com/andruasha/docusaurus-example',
+            href: 'https://chat.miem.hse.ru/#narrow/stream/2057',
             label: 'Zulip Chat',
             position: 'left',
           },
           {
-            href: 'https://github.com/andruasha/docusaurus-example',
+            href: 'https://github.com/mekstack/',
             label: 'GitHub',
             position: 'left',
           },
