@@ -18,10 +18,12 @@ const config = {
       'classic',
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: './sidebars.js',
           editUrl:
             'https://github.com/andruasha/docusaurus-example/tree/main',
         },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -36,15 +38,9 @@ const config = {
         title: 'Mekstack Docs',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'https://storage.yandexcloud.net/mekstack-static/mekstack-logo.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Docs',
-          },
           {
             href: 'https://github.com/andruasha/docusaurus-example',
             label: 'Dashboard',

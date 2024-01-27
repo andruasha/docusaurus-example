@@ -1,5 +1,6 @@
 ---
-title: Welcome to mekstack docs!
+slug: /
+sidebar_position: 1
 ---
 
 # Welcome to mekstack docs!
@@ -16,47 +17,57 @@ title: Welcome to mekstack docs!
 автоматически предоставляется 950 Gbps DDoS защита, 99.(9) SLA и персональный
 аудитор из отдела Информационной Безопасности НИУ ВШЭ.
 
-**Начало работы с облачной платформой мекстак:** [quick-start] (quick-start.md)
+**Начало работы с облачной платформой мекстак:** [quick-start](quick-start)
 
-**Начало работы с сайтом для запуска виртуалок:** [heat-quick-start] (heat-quick-start.md)
+**Начало работы с сайтом для запуска виртуалок:** [heat-quick-start](heat-quick-start)
 
 
 ## Фичи
 
-- **Cloud Native High Availability Eventual Consistency Monolithic Nocode Nanoservices**  
+- **Cloud Native High Availability Eventual Consistency Monolithic Nocode Nanoservices**
+
   В мекстаке самый хайповый стек. Пейсмейкеры, кипалайведы, актив-актив фейловеры, раст, бгп.
   Влажный сон Ycombinator.
 
-- **Software Defined Networking**  
+- **Software Defined Networking**
+
   Можно создавать Geneve сети, виртуальные распределенные роутеры, фаерволы и
   лоадбалансеры.
 
-- **SNEEDaaS**  
+- **SNEEDaaS**
+
   SNI-Enabled Endpoint Delivery as a Service.
-  [Сервис] (services.md#sneedaas) для публикации ваших HTTP(S) сервисов в интернете.
+  [Сервис](services#sneedaas) для публикации ваших HTTP(S) сервисов в интернете.
 
-- **VPNaaS**  
-  У нас свой [впн] (services.md#vpnaas) для доступа к виртуалкам. Я написал его на расте.
+- **VPNaaS**
 
-- **Мониторинг**  
-  Можно смотреть за здоровьем облака и всех проектов. [status.mekstack.ru] (https://status.mekstack.ru/d/YZCsB1Qmz/mekstack-home)
+  У нас свой [впн](services#vpnaas) для доступа к виртуалкам. Я написал его на расте.
 
-- **Много других \*ass**  
-  У нас очень много [*aaS] (https://en.wikipedia.org/wiki/As_a_service),
+- **Мониторинг**
+
+  Можно смотреть за здоровьем облака и всех проектов. [status.mekstack.ru](https://status.mekstack.ru/d/YZCsB1Qmz/mekstack-home)
+
+- **Много других *ass**
+
+  У нас очень много [*aaS](https://en.wikipedia.org/wiki/As_a_service),
   но если среди них нужной нет, приходи к нам в команду и добавь, не мужик что ли.
 
-* **Кастомные образы**  
+* **Кастомные образы**
+
   Мы ежедневно обновляем и тестируем имаджи Ubuntu и Debian, но можно
-  загружать и свои. [images] (images.md)
+  загружать и свои. [images](images)
 
 
 ## Ещё не фичи
 
-- **Live Migrations**  
+- **Live Migrations**
+
   Инстансы автоматически балансируются между серверами для произодительности и аптайма.
 
-- **Интеграция с кабинетом МИЭМ**  
+- **Интеграция с кабинетом МИЭМ**
+
   Проекты и их состав подтягиваются из кабинета автоматически.
 
-- **Зеркала**  
+- **Зеркала**
+
   В LAN есть зеркала разных репозиториев.
